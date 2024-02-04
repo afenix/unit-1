@@ -1,8 +1,60 @@
 /*Add CSS styles here*/
+
+#header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Set a modern font family */
+    margin: 0px;  /* remove the margin */
+    text-align: center; /* align the title to center */
+}
+
+#title {
+    font-family: 'Cairo Play', sans-serif; /* Set a modern font family */
+    margin: 0px;  /* remove the margin */
+    text-align: center; /* align the title to center */
+}
+
+/* Base table styles */
+table {
+  width: 100%; /* or a specific width you prefer */
+  border-collapse: collapse; /* Remove default cell borders */
+  margin: 1rem auto; /* Add some margin for spacing */
+  font-family: sans-serif; /* Set a modern font family */
+}
+
+/* Styles for table headers (th) */
+th {
+  background-color: #525252; /* A deep green background */
+  color: #ffffff; /* White text color */
+  padding: 12px 15px; /* Add some padding */
+  text-align: left; /* Align content left by default */
+  border: 1px solid #ddd; /* Add a thin border */
+  font-weight: bold; /* Bold text for headers */
+  font-family:'PT Sans', sans-serif; /* Set a modern font family */
+  font-size: 20px; /* Add a larger font size */
+}
+
+/* Styles for table rows (tr) */
+tr:nth-child(even) { /* Highlight even rows for better readability */
+  background-color: #f2f2f2;
+}
+
+td {
+  padding: 0.75rem 1rem; /* Consistent padding for cells */
+  border: 1px solid #ddd; /* Add border to all cells */
+  text-align: left; /* Align content left by default */
+  font-family:'PT Sans', sans-serif;
+}
+
+/* Optional styles for hover effects */
+td:hover {
+  background-color: #ffffff; /* Change background on hover */
+  cursor: pointer; /* Add a pointer cursor for interactivity */
+  font-weight: bold; /* Add bold font weight on hover */
+  font-size: 1.15rem; /* Add a larger font size for hover effects */
+}
+
 #map {
     height: 500px;
 }
 
 #map-title {
     font-family: 'Cairo Play', sans-serif;
-}
