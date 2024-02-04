@@ -1,16 +1,17 @@
 # Geog 575 Course Repository
 
-This is the first repository created for Geog 575 course.
+Welcome to my first repository for the Geog 575 course. This repository hosts all materials and codebase developments from Activities 0 through 4.
 
 ## Project Overview
 
-The project includes a basic implementation of a Leaflet map. The map is centered at coordinates of the University of Wisconsin - Madison [43.0766, -89.4172]. The base map tiles are sourced from Stadia Maps' terrain tiles. A custom red icon is used for the map marker, sourced directly from the Leaflet tutorial found [here](https://leafletjs.com/examples/custom-icons/).
+This project encompasses a series of activities designed to introduce and refine skills in interactive map-making and geovisualization.
 
 ## Files
 
-- `main.js`: This file contains the JavaScript code to initialize the Leaflet map and add a custom marker.
-- `index.html`: This is the main HTML file that includes the map container and links to the Leaflet CSS and JavaScript files.
-- `style.css`: This file contains the CSS styles for the map and other elements on the page.
+- `main.js`: Central JavaScript file encapsulating the interactive logic across different stages.
+- `index.html`: The primary webpage, dynamically featuring a map, interactive tables, and geoJSON visualization depending on activity focus.
+- `style.css`: Styling for the map and webpage elements.
+- `MegaCities.geojson`:  GeoJSON data for megacities including population and coordinates.
 
 ## How to Run
 
