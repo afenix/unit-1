@@ -1,6 +1,6 @@
 # Geog 575 Course Repository
 
-Welcome to my first repository for the Geog 575 course. This repository hosts all materials and codebase developments from Activities 0 through 4.
+Welcome to the first repository for the Geog 575 course. This repository hosts all materials and codebase developments from Activities 0 through 4.
 
 ## Project Overview
 
@@ -15,7 +15,7 @@ This project encompasses a series of activities designed to introduce and refine
 
 ## How to Run
 
-Open `index.html` in your browser to view the map.
+Simply open `index.html` with a modern web browser to interact with the project's evolving features.
 
 ## Course Information
 
